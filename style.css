@@ -2,10 +2,15 @@ body {
     height: 100vh;
 }
 
+.header,
+.top-content {
+    background-color: #1f2937;
+    color: white;
+}
+
 .header {
     display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
     justify-content: space-around;
 }
 
@@ -15,4 +20,26 @@ ul {
     gap: 8px;
     padding: 0;
     margin: 0;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 500px;
+}
+
+.text-container {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+/* Just for visualising borders */
+
+.image,
+.text-container {
+    border: solid 1px red;
 }

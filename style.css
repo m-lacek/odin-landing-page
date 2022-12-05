@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    margin: 0;
 }
 
 .header,
@@ -25,6 +26,7 @@ ul {
 .top-content {
     display: flex;
     justify-content: center;
+    padding: 48px;
 }
 
 .image {
@@ -37,9 +39,25 @@ ul {
     flex-direction: column;
 }
 
+.content-two {
+    display: flex;
+}
+
+.content-container {
+    display: flex;
+}
+
+.box {
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
 /* Just for visualising borders */
 
 .image,
-.text-container {
+.text-container,
+.content-two {
     border: solid 1px red;
 }

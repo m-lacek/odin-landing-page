@@ -41,6 +41,8 @@ ul {
 
 .content-two {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content-container {

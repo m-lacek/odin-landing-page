@@ -4,7 +4,8 @@ body {
 }
 
 .header,
-.top-content {
+.top-content,
+.footer {
     background-color: #1f2937;
     color: white;
 }
@@ -102,6 +103,12 @@ ul {
     color: white;
     gap: 80px;
     border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
 }
 
 /* Just for visualising borders */

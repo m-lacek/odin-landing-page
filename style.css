@@ -62,7 +62,7 @@ ul {
 }
 
 .box {
-    border: 4px solid #007bff;
+    border: 4px solid #3882F6;
     border-radius: 20px;
     width: 145px;
     height: 145px;
@@ -88,11 +88,28 @@ ul {
     max-width: 760px;
 }
 
+.ad-area {
+    display: flex;
+    justify-content: center;
+    padding: 52px;
+}
+
+.ad-box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 64px;
+    align-items: center;
+    color: white;
+    gap: 80px;
+    border-radius: 10px;
+}
+
 /* Just for visualising borders */
 
 .image,
 .text-container,
 .content-two,
-.quote-area {
+.quote-area,
+.ad-area {
     border: solid 1px red;
 }

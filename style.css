@@ -3,7 +3,6 @@ body {
     margin: 0;
 }
 
-.header,
 .top-content,
 .footer {
     background-color: #1f2937;
@@ -11,9 +10,16 @@ body {
 }
 
 .header {
+    background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {

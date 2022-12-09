@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/roboto/Roboto-Regular.ttf");
+}
+
 body {
     height: 100vh;
     margin: 0;
+    font-family: "Roboto";
 }
 
 .top-content,
@@ -19,6 +25,7 @@ body {
 
 .title-text {
     font-size: 48px;
+    font-weight: 900;
 }
 
 .subtext {
@@ -56,6 +63,7 @@ ul {
     gap: 8px;
     padding: 0;
     margin: 0;
+    color: #E5E7EB;
 }
 
 .top-content {
@@ -84,6 +92,8 @@ ul {
     display: flex;
     justify-content: center;
     padding: 24px;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .content-two {
@@ -127,6 +137,7 @@ ul {
 .quote-text {
     font-size: 36px;
     max-width: 760px;
+    font-weight: 100;
 }
 
 .ad-area {

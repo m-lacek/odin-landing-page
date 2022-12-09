@@ -47,6 +47,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul {
@@ -61,15 +62,21 @@ ul {
     display: flex;
     justify-content: center;
     padding: 48px;
+    gap: 48px;
 }
 
 .image {
-    width: 500px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
 }
 
 .text-container {
     display: flex;
-    width: 500px;
+    width: 400px;
     flex-direction: column;
 }
 
@@ -146,8 +153,6 @@ ul {
 
 /* Just for visualising borders */
 
-.image,
-.text-container,
 .content-two,
 .quote-area,
 .ad-area {

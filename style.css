@@ -92,7 +92,7 @@ ul {
 .title-two {
     display: flex;
     justify-content: center;
-    padding: 24px;
+    padding: 52px;
     font-size: 36px;
     font-weight: 900;
 }
@@ -101,7 +101,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 52px;
-    padding-bottom: 52px;
+    padding-bottom: 120px;
 }
 
 .container {
@@ -111,6 +111,7 @@ ul {
     width: 145px;
     height: auto;
     text-align: center;
+    gap: 8px;
 }
 
 .box {
@@ -150,10 +151,10 @@ ul {
 .ad-box {
     display: flex;
     background-color: #3882f6;
-    padding: 32px 64px;
+    padding: 32px 88px;
     align-items: center;
     color: white;
-    gap: 80px;
+    gap: 150px;
     border-radius: 10px;
 }
 
